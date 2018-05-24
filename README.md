@@ -49,15 +49,6 @@ react组件生命周期
     componentWillReceiveProps(){}组件参数更新之后
 
 创建列表的要给子组件加上key属性{i}
-   class Parent extends React.Component{
-     constructor(...args){
-          super(...args)
-     }
-     
-   }
-   class Child extends React.Component{
-     constructor(...args){
-         super(...args)
-     }
-     
-   }
+
+react获取DOM元素的方法是给元素标签添加ref，相当于id,获取的方式是用this.refs['idname']------>获取的是DOM元素
+
