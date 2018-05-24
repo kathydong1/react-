@@ -39,3 +39,11 @@ react组件封装：面向对象
 react状态:
     constructor中可以直接给this.state赋值，在方法中要用this.setState({})修改state
     且constructor中必须要调用super()
+style的标签中需要{{}}
+react组件生命周期
+    componentWillMount(){}创建之前
+    componentDidMount(){}创建之后
+    componentWillUpdate(){}更新之前
+    componentDidpdate(){}更新之后
+    componentWillUnmount(){}卸载之前
+    componentWillReceiveProps(){}组件参数更新之后
