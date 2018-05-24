@@ -4,7 +4,7 @@ react:
 react技术栈：react主体+webpack自动化构建工具+redux视图+react-router路由+flux布局+mocha测试+istanbul覆盖率
 
 jsx：对js语法的一个增强：html代码可以直接写在js中，且不能直接运行，需要用babel编译jsx，例如var str=<div>内容</div>，需要注意的是有且只有一个根元素
-   <script type="text/babel"></script>       {}表示输出内容
+   <script type="text/babel"></script>       {}表示输出内容模板字符
 react-dom：操作dom元素
       ReactDom.render(jsx语法)
 react组件封装：面向对象
@@ -47,3 +47,17 @@ react组件生命周期
     componentDidpdate(){}更新之后
     componentWillUnmount(){}卸载之前
     componentWillReceiveProps(){}组件参数更新之后
+
+创建列表的要给子组件加上key属性{i}
+   class Parent extends React.Component{
+     constructor(...args){
+          super(...args)
+     }
+     
+   }
+   class Child extends React.Component{
+     constructor(...args){
+         super(...args)
+     }
+     
+   }
