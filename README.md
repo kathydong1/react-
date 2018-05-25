@@ -59,3 +59,6 @@ react获取DOM元素的方法是给元素标签添加ref，相当于id,获取的
 
 事件冒泡：
 ev.nativeEvent.stopImmediatePropagation()
+
+组件通信
+   父传子   父写法：name="comm"   ---->子写法：this.props.name
