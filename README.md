@@ -62,3 +62,4 @@ ev.nativeEvent.stopImmediatePropagation()
 
 组件通信
    父传子   父写法：name="comm"   ---->子写法：this.props.name
+   子传父   在父级中定义执行函数fn  ----->子写法：this.props.fn(传入子集参数)
