@@ -56,3 +56,6 @@ react获取DOM元素的方法是给元素标签添加ref，相当于id,获取的
    表单输入框中value要从父组件接受动态的默认值，需要用defaultValue来定义，用value是只读状态
    选中框也是用defaultChecked
   <input type="text" defaultValue={this.props.value}/>
+
+事件冒泡：
+ev.nativeEvent.stopImmediatePropagation()
