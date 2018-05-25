@@ -63,3 +63,19 @@ ev.nativeEvent.stopImmediatePropagation()
 组件通信
    父传子   父写法：name="comm"   ---->子写法：this.props.name
    子传父   在父级中定义执行函数fn  ----->子写法：this.props.fn(传入子集参数)
+   
+webpack打包工具结合react：
+   配置webpack   ---->cnpm install -g webpack -D环境
+                 ---->cnpm install -g -dev-server-D安装服务器
+                 ---->cnpm install babel-core -D安装后台编译babel工具
+                 ---->cnpm install babel-preset-es2015 -D安装config
+                 ---->cnpm install babel-loader -D
+                 
+                 cnpm install webpack -dev-server -D   webpack服务器本地依赖
+                 
+                 
+                 这些命令结束会在packjson.json文件中生成一个配置，之后会根据json中配置执行npm install
+                 
+                 
+    
+
